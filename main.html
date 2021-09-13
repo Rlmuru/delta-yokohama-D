@@ -261,7 +261,7 @@ Youtube貼り付けここまで -->
         <section class="section bg-color--keycolor">
           <div class="container">
             <h2 class="section-title"><span class="section-title__stage">STAGE：3</span>キーワードを入力</h2>
-            <answer-input v-bind:correct="correctAnswer['stage3']['q2']" v-on:answer-input="answerInput($event, 'stage3', 2, 'final')"></answer-input>
+            <answer-input v-bind:correct="correctAnswer['stage3']['q2']" v-on:answer-input="answerInput($event, 'stage3', 2, '')"></answer-input>
             <a class="link-hint" href="hint3.html" target="hint3">ヒントをみる ></a>
           </div>
         </section>
@@ -283,7 +283,7 @@ STAGE3-2追加ここまで -->
           <div class="container">
             <h2 class="section-title"><span class="section-title__stage">STAGE：3</span>キーワードを入力</h2>
 
-            <answer-input v-bind:correct="correctAnswer['stage3']['q3']" v-on:answer-input="answerInput($event, 'stage3', 3, 'final')"></answer-input>
+            <answer-input v-bind:correct="correctAnswer['stage3']['q3']" v-on:answer-input="answerInput($event, 'stage3', 3, 'stage4')"></answer-input>
             <a class="link-hint" href="hint3.html" target="hint3">ヒントをみる ></a>
           </div>
         </section>
