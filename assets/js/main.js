@@ -63,11 +63,6 @@ const app = Vue.createApp({
           false, // 4-1
           // false, // 4-2
           // false, // 4-3
-        ],
-        stage5: [
-          false, // 5-1
-          // false, // 5-2
-          // false, // 5-3
         ]
       },
 
@@ -77,7 +72,6 @@ const app = Vue.createApp({
         stage2: false,
         stage3: false,
         stage4: false,
-        stage5: false,
       },
 
       /* 次のステージを表示するかどうか
@@ -87,7 +81,6 @@ const app = Vue.createApp({
         stage1: false,
         stage2: false,
         stage3: false,
-        stage4: false,
       },
     }
   },
